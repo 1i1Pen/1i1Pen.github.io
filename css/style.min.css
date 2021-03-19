@@ -1,0 +1,289 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto Slab"
+}
+
+.container {
+	display: block;
+	width: 950px;
+	margin: 0 auto
+}
+
+.promo {
+	min-height: 700px;
+	background-color: #232323;
+	padding-top: 55px;
+	padding-bottom: 124px
+}
+
+.promo .header__promo {
+	display: flex;
+	align-items: center
+}
+
+.promo .header__promo .header__logo {
+	margin-right: 63px
+}
+
+.promo .header__promo .header__nav_ul {
+	display: flex;
+	margin-bottom: 0
+}
+
+.promo .header__promo .header__nav_item {
+	margin-right: 33px
+}
+
+.promo .header__promo .header__nav {
+	margin-right: 430px
+}
+
+.promo .header__promo .left__icon {
+	margin-left: 24px
+}
+
+.promo .header__promo .link {
+	font-size: 14px;
+	font-weight: 400;
+	text-align: left;
+	color: #d4d4d4
+}
+
+.promo .header__promo .link:hover {
+	text-decoration: none
+}
+
+.promo__main {
+	display: flex;
+	margin-top: 42px;
+	line-height: 60px;
+	align-items: center
+}
+
+.promo__main_wrap {
+	margin-right: 143px
+}
+
+.promo__main_header {
+	font-size: 55px;
+	font-weight: 700;
+	text-align: left;
+	color: #fff
+}
+
+.promo__subtitle {
+	margin-top: 54px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+	color: #d4d4d4
+}
+
+.promo__button {
+	display: block;
+	margin: 0 auto;
+	margin-top: 58px;
+	padding-left: 27px;
+	width: 80%;
+	background: #f2cb2e url(../icons/right-arrow-dark.png) no-repeat 90% 50%;
+	border: none;
+	border-radius: 30px;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: left;
+	color: #222;
+	outline: 0
+}
+
+.info {
+	min-height: 328px;
+	background: #131313;
+	padding-top: 85px;
+	padding-bottom: 82px
+}
+
+.info__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start
+}
+
+.info__item {
+	width: 200px
+}
+
+.info__item img {
+	display: block
+}
+
+.info__item .text {
+	text-align: center;
+	margin-top: 39px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.43;
+	text-align: left;
+	color: #d4d4d4
+}
+
+.map {
+	min-height: 808px;
+	padding-top: 85px;
+	padding-bottom: 82px
+}
+
+.map__wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between
+}
+
+.map__item {
+	width: 45%
+}
+
+.map__item:first-child {
+	margin-right: 80px
+}
+
+.map__item:nth-child(3),
+.map__item:nth-child(4) {
+	margin-top: 85px
+}
+
+.map__header {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.25;
+	text-align: left;
+	color: #222
+}
+
+.map__text {
+	font-size: 14px;
+	font-weight: 400;
+	text-align: left;
+	color: #222;
+	margin-top: 30px
+}
+
+.map__list {
+	margin-bottom: 0;
+	margin-top: 10px
+}
+
+.map__list li {
+	color: #f2cb2e;
+	margin-top: 30px
+}
+
+.map__list li span {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.43;
+	text-align: left;
+	color: #222
+}
+
+.footer {
+	min-height: 348px;
+	background-color: #131313;
+	padding-bottom: 45px
+}
+
+.footer::before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 20px;
+	background-color: #232323;
+	margin-bottom: 63px
+}
+
+.footer__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start
+}
+
+.footer__logo_wrap {
+	display: flex;
+	align-items: center
+}
+
+.footer__logo_wrap img {
+	margin-right: 24px
+}
+
+.footer__text {
+	font-size: 18px;
+	font-weight: 400;
+	text-align: left;
+	color: #d4d4d4
+}
+
+.footer__header {
+	font-size: 20px;
+	font-weight: 700;
+	text-align: left;
+	color: #fff;
+	margin-bottom: 0
+}
+
+.footer__header::after {
+	content: "";
+	display: block;
+	width: 200px;
+	height: 2px;
+	position: absolute;
+	margin-top: 18px;
+	background-color: #232323
+}
+
+.footer__logo_wrap {
+	display: flex;
+	flex-direction: column
+}
+
+.footer__logo {
+	display: flex;
+	align-items: center
+}
+
+.footer__text_corporation {
+	margin-top: 111px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.38;
+	text-align: left;
+	color: #555
+}
+
+.footer__list {
+	margin-top: 77px
+}
+
+.footer__list li {
+	list-style-type: none;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 2.9;
+	text-align: left;
+	color: #888
+}
+
+.page-up {
+	display: none;
+	position: fixed;
+	width: 70px;
+	height: 70px;
+	bottom: 30px;
+	right: 40px
+}
+
+.page-up__arrow {
+	width: 100%
+}
